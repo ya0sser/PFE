@@ -1,0 +1,82 @@
+
+body {
+    background: #dfdfdf;
+    margin: 40px 10px;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+    font-size: 14px;
+  }
+
+  #calendar {
+    max-width: 1100px;
+     margin: 0 auto;
+     
+  }
+  
+  :root {
+    --fc-small-font-size: .85em;
+    --fc-page-font-family: 'Poppins',sans-serif;
+    --fc-page-bg-color: #fff;
+    --fc-neutral-bg-color: rgba(208, 208, 208, 0.3);
+    --fc-neutral-text-color: #808080;
+    --fc-border-color: #242222ac;
+  
+    --fc-button-text-color: #fdf0f0;
+    --fc-button-bg-color: hsla(0, 0%, 2%, 0.853);
+    --fc-button-border-color:  #000000;
+    --fc-button-hover-bg-color: #0b0b0b;
+    --fc-button-hover-border-color: #5f5f5cd7;
+    --fc-button-active-bg-color: #818076;
+    --fc-button-active-border-color: #1c1c1c;
+  
+    --fc-event-bg-color: #3788d8;
+    --fc-event-border-color: #3788d8;
+    --fc-event-text-color: #fff;
+    --fc-event-selected-overlay-color: rgba(0, 0, 0, 0.25);
+  
+    --fc-more-link-bg-color: #080707;
+    --fc-more-link-text-color: inherit;
+  
+    --fc-event-resizer-thickness: 8px;
+    --fc-event-resizer-dot-total-width: 8px;
+    --fc-event-resizer-dot-border-width: 1px;
+  
+  }
+
+  :root {
+    --fc-daygrid-event-dot-width: 10px;
+  } 
+  :root {
+    --fc-list-event-dot-width: 10px;
+    --fc-list-event-hover-bg-color: #f5f5f5;
+  }
+
+
+  :root {
+    --fc-list-event-dot-width: 10px;
+    --fc-list-event-hover-bg-color: #f5f5f5;
+  }
+
+  .fc-list-event-dot {
+    display: inline-block;
+    box-sizing: content-box;
+    width: 0;
+    height: 0;
+    border: calc(var(--fc-list-event-dot-width) / 2) solid var(--fc-event-border-color);
+    border-radius: calc(var(--fc-list-event-dot-width) / 2);
+  }
+
+  .fc-list-event-title a {
+    color: inherit;
+    text-decoration: none;
+  }
+  .fc-list-table {
+    width: 100%;
+    border-style: hidden;
+    
+  }
+  button {
+  
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.4);  /* Initial shadow */
+}
+

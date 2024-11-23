@@ -1,0 +1,163 @@
+.container1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.item-container1 {
+  position: relative;
+  margin: 0;
+  width: 300px; 
+  max-width: 320px; 
+  height: 600px;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: 0 0 30px 5px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  border-radius: 20px;
+  display: flex; 
+  flex-direction: column; 
+  border: 2px solid #333;
+}
+
+.img-container1,
+.body-container1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.img-container1 img {
+  width: 100%;
+}
+
+.container__events1 :last-child:nth-child(3n + 1) {
+  grid-column: 2;
+}
+
+.body-container1 {
+  position: relative;
+}
+
+.overlay1 {
+  position: relative;
+  width: 100%;
+  height: 350px; 
+  background-color: rgba(0, 0, 0, 0.6);
+  opacity: 0;
+  transition: height linear 0.4s, opacity linear 0.2s;
+}
+
+.item-container1:hover .overlay1 {
+  opacity: 1;
+  height: 130px; 
+}
+
+.event-info1 {
+  background-color: #fff;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  height: 100%;
+}
+
+.title1,
+.price1 {
+  color: #000000; 
+  font-size: 1.5em;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin: 12px;
+  text-align: center;
+}
+
+.separator1 {
+  width: 20%;
+  height: 6px;
+  background-color: #000000;
+  margin: 20px auto;
+}
+
+.closed-event {
+  color: red;
+}
+
+.additional-info1 {
+  margin-top: 12px;
+  padding: 28px;
+  padding-bottom: 0;
+}
+
+.additional-info {
+  text-align: center;
+}
+
+.additional-info1 .info1 {
+  font-size: 0.9em;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.info1 i {
+  color: #000000;
+  font-size: 1.1em;
+  margin-right: 4px;
+}
+
+.info1 span {
+  color: #000000; 
+  font-weight: bolder;
+}
+
+.multi-dates-btn {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-size: 0.9em;
+  font-weight: bold;
+  margin: 10px auto;
+  text-align: center;
+}
+
+.action1 {
+  color: #fff;
+  background-color: #333; 
+  border: 2px solid #333; 
+  border-radius: 15px; 
+  position: absolute;
+  top: -100px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 70%;
+  padding: 14px; 
+  text-transform: uppercase;
+  font-size: 1.2em; 
+  font-weight: 500; 
+  letter-spacing: 1px; 
+  outline: none;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+
+.item-container1:hover .action1 {
+  top: 45px;
+}
+
+.action1:hover {
+  background-color: #555; 
+  border-color: #555; 
+}
+
+.info.description {
+  display: none;
+}
+
+.item-container1:hover .info.description {
+  display: block;
+}

@@ -1,0 +1,70 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    background-color: #f8f9fa;
+    font-family: 'Roboto', sans-serif;
+}
+h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+.machine-card {
+    background-color: #0d2234;
+    color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.machine-card img {
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+.machine-details {
+    flex-grow: 1;
+}
+.machine-details h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+.machine-details p {
+    margin-bottom: 5px;
+    font-size: 1rem;
+}
+h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+.machine-card {
+    background-color: #0d2234;
+    color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.machine-card img {
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+.machine-details {
+    flex-grow: 1;
+}
+.machine-details h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+.machine-details p {
+    margin-bottom: 5px;
+    font-size: 1rem;
+}
